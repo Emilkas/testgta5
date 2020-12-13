@@ -15,7 +15,7 @@ body {
 }
 .house-content::before {
     content: "";
-    position: fixed;
+    position: absolute;
     width: 579px;
     height: 293px;
     background: url('../assets/img/modern-house-3d-model-max-obj-3ds-fbx1.svg');
@@ -26,7 +26,7 @@ body {
 .house-content__layout {
     display: flex;
     flex-wrap: wrap;
-    padding: 33px 81px 0 81px;
+    padding:33px 81px;
 }
 .house-conten__container {
     width: 50%;
@@ -83,14 +83,13 @@ body {
     justify-content: center;
 }
 .circle__img {
+    display: flex;
     position: relative;
     width: 151px;
     height: 151px;
 }
 .circle__img__lock {
     position: absolute;
-    width: 51px;
-    height: 72px;
 }
 .container__header__status__label {
     display: flex;
@@ -98,7 +97,7 @@ body {
     align-items: center;
 }
 .container__header__status__label__open {
-    position: relative;
+    position: absolute;
     margin-top: 13px;
     font-weight: 500;
     font-size: 24px;

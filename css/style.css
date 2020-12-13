@@ -15,7 +15,7 @@ body {
 }
 .house-content::before {
     content: "";
-    position: absolute;
+    position: fixed;
     width: 579px;
     height: 293px;
     background: url('../assets/img/modern-house-3d-model-max-obj-3ds-fbx1.svg');
@@ -26,7 +26,7 @@ body {
 .house-content__layout {
     display: flex;
     flex-wrap: wrap;
-    padding:33px 81px;
+    padding: 33px 81px 0 81px;
 }
 .house-conten__container {
     width: 50%;

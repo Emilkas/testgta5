@@ -76,24 +76,21 @@ body {
     line-height: 22px;
     color: #FFFFFF;
 }
-.container__header__status {
-    display: block;
-}
 .container__header__status__circle {
     display: flex;
-    margin-top: 50px;
-    flex-direction: column;
+    margin-top: 60px;
     align-items: center;
+    justify-content: center;
 }
-.container__header__status__circle__img {
+.circle__img {
     position: relative;
     width: 151px;
     height: 151px;
-    align-items: center;
 }
-.container__header__status__circle__img__lock {
+.circle__img__lock {
     position: absolute;
-    top: 65.17%;
+    width: 51px;
+    height: 72px;
 }
 .container__header__status__label {
     display: flex;
